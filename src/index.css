@@ -1,3 +1,58 @@
-html{
-    padding: 70px;
+body {
+	background-color: #212529;
+	color: #eee;
+}
+
+.nav-tabs {
+	border-bottom: 2px solid #dee2e6;
+}
+
+.nav-tabs .nav-link:hover{
+    transform: scale(1.1);
+	color: #cabf60;
+	transition: all 0.3s ease;
+	font-weight: 800;
+	border: none;
+}
+
+
+.nav-tabs .nav-link.active:hover{
+    transform: scale(1.1);
+    color: #cabf60;
+	transition: all 0.3s ease;
+	border: none;
+}
+
+.nav-tabs .nav-link {
+	color: #7caaff;
+	margin-bottom: -2px;
+	border-bottom: #212529;
+	border-top-left-radius: 0.75rem;
+	border-top-right-radius: 0.75rem;
+	transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	transition: all 0.3s ease;
+	background-color: transparent;
+	color: #ca6760;
+	font-weight: 800;
+	border: 2px solid #dee2e6;
+	border-bottom: solid #212529;
+}
+
+#log {
+	font-weight: 800;
+	
+	transition: all 0.3s ease;
+	border: none;
+    right: 80px;
+}
+
+#log:hover {
+	transform: scale(1.1);
+	color: #60ca80;
+	transition: all 0.3s ease;
+	border: none;
 }
