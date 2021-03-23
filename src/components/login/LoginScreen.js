@@ -8,7 +8,7 @@ export const LoginScreen = ({ history }) => {
      }
 
     return (
-        <div>
+        <div className='container-xl mt-4'>
             <h1>Login Screen</h1>
 
             <br/>
