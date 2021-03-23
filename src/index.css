@@ -10,7 +10,7 @@ body {
 .nav-tabs .nav-link:hover{
     transform: scale(1.1);
 	color: #cabf60;
-	transition: all 0.3s ease;
+	transition: all 0.2s ease;
 	font-weight: 800;
 	border: none;
 }
@@ -19,7 +19,7 @@ body {
 .nav-tabs .nav-link.active:hover{
     transform: scale(1.1);
     color: #cabf60;
-	transition: all 0.3s ease;
+	transition: all 0.2s ease;
 	border: none;
 }
 
@@ -29,12 +29,12 @@ body {
 	border-bottom: #212529;
 	border-top-left-radius: 0.75rem;
 	border-top-right-radius: 0.75rem;
-	transition: all 0.3s ease;
+	transition: all 0.2s ease;
 }
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-	transition: all 0.3s ease;
+	transition: all 0.2s ease;
 	background-color: transparent;
 	color: #ca6760;
 	font-weight: 800;
@@ -44,16 +44,15 @@ body {
 
 #log {
 	font-weight: 800;
-	
-	transition: all 0.3s ease;
+	margin-left: 40rem;
+	transition: all 0.2s ease;
 	border: none;
-    right: 80px;
 }
 
 #log:hover {
 	transform: scale(1.1);
 	color: #60ca80;
-	transition: all 0.3s ease;
+	transition: all 0.2s ease;
 	border: none;
 }
 
@@ -66,4 +65,40 @@ body {
 .list-group-item{
 	background-color: #212529;
 	border: none;
+}
+
+#name{
+	margin-left: 2rem;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+
+@media screen and (max-width: 890px){
+	#log {
+		font-weight: 800;
+		margin-left: 20rem;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	#log {
+		font-weight: 800;
+		margin-left: 15rem;
+	}
+}
+
+@media screen and (max-width: 544px){
+	#log {
+		font-weight: 800;
+		margin-left: 2rem;
+	}
+}
+
+@media screen and (max-width: 397px){
+	#log {
+		font-weight: 800;
+		margin-left: -.5rem;
+	}
 }
